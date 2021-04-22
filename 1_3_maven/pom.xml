@@ -41,6 +41,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- Coroutine dependency  -->
         <dependency>
             <groupId>org.jetbrains.kotlinx</groupId>
             <artifactId>kotlinx-coroutines-core</artifactId>
@@ -57,6 +58,7 @@
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <version>${kotlin.version}</version>
+                <!-- Coroutine configuration  -->
                 <configuration>
                     <args>
                         <arg>-Xcoroutines=enable</arg>

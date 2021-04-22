@@ -24,7 +24,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    compile "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
+    compile "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version" // Coroutine dependency
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
@@ -37,6 +37,6 @@ compileTestKotlin {
 
 kotlin {
     experimental {
-        coroutines "enable"
+        coroutines "enable" // Coroutine configuration
     }
 }
