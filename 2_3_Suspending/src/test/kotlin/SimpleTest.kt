@@ -5,7 +5,7 @@ import org.junit.Test
 
 class SimpleTest {
 
-    // 3. SHow test does not work
+    // 3. Show test does not work
     @Test
     fun firstTest() {
 //        doWork()

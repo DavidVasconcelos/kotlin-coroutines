@@ -9,13 +9,20 @@ fun main(args: Array<String>) = runBlocking<Unit> {
 
     launch {
         delay(1000)
-        println("World")
+        print("World")
     }
 
     print("Hello, ")
 
-    delay(2000)
+    doDelay()
 
+    print(" !")
+
+}
+
+suspend fun doDelay() {
+
+    delay(2000)
 }
 
 
