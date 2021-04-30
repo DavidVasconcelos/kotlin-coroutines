@@ -21,7 +21,7 @@ fun main(args: Array<String>) = runBlocking {
 
     // 2. Show job.cancelAndJoin
     job.cancelAndJoin()
-    println()
+//    println()
     println("done")
 }
 

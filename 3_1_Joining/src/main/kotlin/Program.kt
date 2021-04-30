@@ -12,7 +12,7 @@ fun main(args: Array<String>) = runBlocking {
 
     print("Hello, ")
 
-    job.join()
+    job.join() // sem o join nao executa
 
 }
 
