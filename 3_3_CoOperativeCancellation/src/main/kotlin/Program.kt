@@ -6,14 +6,15 @@ fun main(args: Array<String>) = runBlocking() {
     val job = launch {
         // 1. non-cooperative, no cancellation
         //doWorkNonCooperative()
-        // 2. WOrk and yield
+        // 2. Work and yield
         //doWorkAndYield()
         // 3. Checking state
-        doWorkAndCheck()
+        //doWorkAndCheck()
     }
 
     delay(100)
     job.cancelAndJoin()
+    println("done")
 }
 
 // 1. Non-cooperative
