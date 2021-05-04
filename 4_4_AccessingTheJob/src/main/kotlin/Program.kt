@@ -3,7 +3,7 @@ import kotlin.coroutines.experimental.coroutineContext
 
 fun main(args: Array<String>) = runBlocking {
     val job = launch {
-        // 1. job variable not visib;e
+        // 1. job variable not visible
         //println("isActive?  ${job.isActive}")
 
         // 2. Use context
